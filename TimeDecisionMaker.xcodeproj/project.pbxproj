@@ -16,10 +16,22 @@
 		748F59B92270681D00B88B7D /* TimeDecisionMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F59B82270681D00B88B7D /* TimeDecisionMakerTests.swift */; };
 		748F59C72270687C00B88B7D /* RDTimeDecisionMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F59C62270687C00B88B7D /* RDTimeDecisionMaker.swift */; };
 		748F59C82270687C00B88B7D /* RDTimeDecisionMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F59C62270687C00B88B7D /* RDTimeDecisionMaker.swift */; };
-		748F59CA22706C6600B88B7D /* A.ics in Resources */ = {isa = PBXBuildFile; fileRef = 748F59C922706C6600B88B7D /* A.ics */; };
-		748F59CB22706C6600B88B7D /* A.ics in Resources */ = {isa = PBXBuildFile; fileRef = 748F59C922706C6600B88B7D /* A.ics */; };
-		748F59CE22706EB300B88B7D /* B.ics in Resources */ = {isa = PBXBuildFile; fileRef = 748F59CD22706EB300B88B7D /* B.ics */; };
-		748F59CF22706EB300B88B7D /* B.ics in Resources */ = {isa = PBXBuildFile; fileRef = 748F59CD22706EB300B88B7D /* B.ics */; };
+		8CA4C2AE22970FBC0027A851 /* CalendarParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4C2AD22970FBC0027A851 /* CalendarParser.swift */; };
+		8CA4C2AF22970FBC0027A851 /* CalendarParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4C2AD22970FBC0027A851 /* CalendarParser.swift */; };
+		8CA4C2B122970FD90027A851 /* UserCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4C2B022970FD90027A851 /* UserCalendar.swift */; };
+		8CA4C2B222970FD90027A851 /* UserCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4C2B022970FD90027A851 /* UserCalendar.swift */; };
+		8CA4C2B422970FF50027A851 /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4C2B322970FF50027A851 /* Appointment.swift */; };
+		8CA4C2B522970FF50027A851 /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4C2B322970FF50027A851 /* Appointment.swift */; };
+		8CA4C2B7229710170027A851 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4C2B6229710170027A851 /* Operators.swift */; };
+		8CA4C2B8229710170027A851 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4C2B6229710170027A851 /* Operators.swift */; };
+		8CA4C2BA2297102C0027A851 /* PrecedenceGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4C2B92297102C0027A851 /* PrecedenceGroups.swift */; };
+		8CA4C2BB2297102C0027A851 /* PrecedenceGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4C2B92297102C0027A851 /* PrecedenceGroups.swift */; };
+		8CA4C2BF2297116A0027A851 /* StringKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4C2BE2297116A0027A851 /* StringKeys.swift */; };
+		8CA4C2C02297116A0027A851 /* StringKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4C2BE2297116A0027A851 /* StringKeys.swift */; };
+		8CA4C2C4229712470027A851 /* A.ics in Resources */ = {isa = PBXBuildFile; fileRef = 8CA4C2C2229712470027A851 /* A.ics */; };
+		8CA4C2C5229712470027A851 /* A.ics in Resources */ = {isa = PBXBuildFile; fileRef = 8CA4C2C2229712470027A851 /* A.ics */; };
+		8CA4C2C6229712470027A851 /* B.ics in Resources */ = {isa = PBXBuildFile; fileRef = 8CA4C2C3229712470027A851 /* B.ics */; };
+		8CA4C2C7229712470027A851 /* B.ics in Resources */ = {isa = PBXBuildFile; fileRef = 8CA4C2C3229712470027A851 /* B.ics */; };
 		F145F2E7BBED2128C3A18CD4 /* Pods_TimeDecisionMakerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F79E38CEEDF2144E6F811D /* Pods_TimeDecisionMakerTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,12 +57,18 @@
 		748F59AD2270681D00B88B7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		748F59AF2270681D00B88B7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		748F59B42270681D00B88B7D /* TimeDecisionMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeDecisionMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		748F59B82270681D00B88B7D /* TimeDecisionMakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeDecisionMakerTests.swift; sourceTree = "<group>"; };
+		748F59B82270681D00B88B7D /* TimeDecisionMakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeDecisionMakerTests.swift; sourceTree = "<group>"; usesTabs = 1; };
 		748F59BA2270681D00B88B7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		748F59C62270687C00B88B7D /* RDTimeDecisionMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDTimeDecisionMaker.swift; sourceTree = "<group>"; };
-		748F59C922706C6600B88B7D /* A.ics */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = A.ics; sourceTree = "<group>"; };
-		748F59CD22706EB300B88B7D /* B.ics */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = B.ics; sourceTree = "<group>"; };
 		79C0FA7564DC1157469AEAC3 /* Pods-TimeDecisionMakerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeDecisionMakerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TimeDecisionMakerTests/Pods-TimeDecisionMakerTests.release.xcconfig"; sourceTree = "<group>"; };
+		8CA4C2AD22970FBC0027A851 /* CalendarParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarParser.swift; sourceTree = "<group>"; };
+		8CA4C2B022970FD90027A851 /* UserCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCalendar.swift; sourceTree = "<group>"; };
+		8CA4C2B322970FF50027A851 /* Appointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+		8CA4C2B6229710170027A851 /* Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		8CA4C2B92297102C0027A851 /* PrecedenceGroups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrecedenceGroups.swift; sourceTree = "<group>"; };
+		8CA4C2BE2297116A0027A851 /* StringKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringKeys.swift; sourceTree = "<group>"; };
+		8CA4C2C2229712470027A851 /* A.ics */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = A.ics; sourceTree = "<group>"; };
+		8CA4C2C3229712470027A851 /* B.ics */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = B.ics; sourceTree = "<group>"; };
 		DAA5CB1A14F58C4E3964B8DC /* Pods-TimeDecisionMaker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeDecisionMaker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TimeDecisionMaker/Pods-TimeDecisionMaker.debug.xcconfig"; sourceTree = "<group>"; };
 		F7F79E38CEEDF2144E6F811D /* Pods_TimeDecisionMakerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeDecisionMakerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -107,11 +125,12 @@
 		748F59A22270681B00B88B7D /* TimeDecisionMaker */ = {
 			isa = PBXGroup;
 			children = (
-				748F59CC22706E9400B88B7D /* Appointments */,
 				748F59A32270681B00B88B7D /* AppDelegate.swift */,
-				748F59C62270687C00B88B7D /* RDTimeDecisionMaker.swift */,
 				748F59C42270685A00B88B7D /* ViewControllers */,
+				8CA4C2BD229710740027A851 /* Models */,
+				8CA4C2BC229710650027A851 /* Operators */,
 				748F59C32270684E00B88B7D /* Storyboards */,
+				8CA4C2C1229711700027A851 /* Other */,
 				748F59C52270686400B88B7D /* Resources */,
 			);
 			path = TimeDecisionMaker;
@@ -146,6 +165,7 @@
 		748F59C52270686400B88B7D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				748F59CC22706E9400B88B7D /* Appointments */,
 				748F59AA2270681D00B88B7D /* Assets.xcassets */,
 				748F59AF2270681D00B88B7D /* Info.plist */,
 			);
@@ -155,10 +175,38 @@
 		748F59CC22706E9400B88B7D /* Appointments */ = {
 			isa = PBXGroup;
 			children = (
-				748F59C922706C6600B88B7D /* A.ics */,
-				748F59CD22706EB300B88B7D /* B.ics */,
+				8CA4C2C2229712470027A851 /* A.ics */,
+				8CA4C2C3229712470027A851 /* B.ics */,
 			);
 			path = Appointments;
+			sourceTree = "<group>";
+		};
+		8CA4C2BC229710650027A851 /* Operators */ = {
+			isa = PBXGroup;
+			children = (
+				8CA4C2B6229710170027A851 /* Operators.swift */,
+				8CA4C2B92297102C0027A851 /* PrecedenceGroups.swift */,
+			);
+			path = Operators;
+			sourceTree = "<group>";
+		};
+		8CA4C2BD229710740027A851 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8CA4C2AD22970FBC0027A851 /* CalendarParser.swift */,
+				8CA4C2B022970FD90027A851 /* UserCalendar.swift */,
+				8CA4C2B322970FF50027A851 /* Appointment.swift */,
+				748F59C62270687C00B88B7D /* RDTimeDecisionMaker.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8CA4C2C1229711700027A851 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				8CA4C2BE2297116A0027A851 /* StringKeys.swift */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 		FCD015928D4C353DEA214126 /* Pods */ = {
@@ -257,10 +305,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				748F59AE2270681D00B88B7D /* LaunchScreen.storyboard in Resources */,
-				748F59CE22706EB300B88B7D /* B.ics in Resources */,
+				8CA4C2C6229712470027A851 /* B.ics in Resources */,
 				748F59AB2270681D00B88B7D /* Assets.xcassets in Resources */,
 				748F59A92270681B00B88B7D /* Main.storyboard in Resources */,
-				748F59CA22706C6600B88B7D /* A.ics in Resources */,
+				8CA4C2C4229712470027A851 /* A.ics in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,8 +316,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				748F59CF22706EB300B88B7D /* B.ics in Resources */,
-				748F59CB22706C6600B88B7D /* A.ics in Resources */,
+				8CA4C2C7229712470027A851 /* B.ics in Resources */,
+				8CA4C2C5229712470027A851 /* A.ics in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,9 +431,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CA4C2B122970FD90027A851 /* UserCalendar.swift in Sources */,
 				748F59C72270687C00B88B7D /* RDTimeDecisionMaker.swift in Sources */,
+				8CA4C2B7229710170027A851 /* Operators.swift in Sources */,
 				748F59A62270681B00B88B7D /* ViewController.swift in Sources */,
+				8CA4C2B422970FF50027A851 /* Appointment.swift in Sources */,
+				8CA4C2AE22970FBC0027A851 /* CalendarParser.swift in Sources */,
 				748F59A42270681B00B88B7D /* AppDelegate.swift in Sources */,
+				8CA4C2BF2297116A0027A851 /* StringKeys.swift in Sources */,
+				8CA4C2BA2297102C0027A851 /* PrecedenceGroups.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,8 +447,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CA4C2AF22970FBC0027A851 /* CalendarParser.swift in Sources */,
 				748F59B92270681D00B88B7D /* TimeDecisionMakerTests.swift in Sources */,
+				8CA4C2B222970FD90027A851 /* UserCalendar.swift in Sources */,
 				748F59C82270687C00B88B7D /* RDTimeDecisionMaker.swift in Sources */,
+				8CA4C2BB2297102C0027A851 /* PrecedenceGroups.swift in Sources */,
+				8CA4C2B522970FF50027A851 /* Appointment.swift in Sources */,
+				8CA4C2C02297116A0027A851 /* StringKeys.swift in Sources */,
+				8CA4C2B8229710170027A851 /* Operators.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
