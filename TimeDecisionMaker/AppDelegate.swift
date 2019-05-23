@@ -9,12 +9,16 @@ import UIKit
 
 @UIApplicationMain
 final class AppDelegate: UIResponder, UIApplicationDelegate {
-
-    var window: UIWindow?
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+	
+	var window: UIWindow?
+	
+	private let calendarManager = CalendarManager()
+	private lazy var initialVC = InitialVC(calendarManager: calendarManager)
+	
+	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+		let navigationVC = UINavigationController(rootViewController: initialVC)
 		
-        return true
-    }
+		self.window = UIWindow.make(withRoot: navigationVC)
+		return true
+	}
 }
-
