@@ -9,6 +9,17 @@ import CalendarKit
 
 extension DateInterval {
 	
+	private var textForEvent: String {
+		let startTimeString = self.timeString(for: self.start)
+		let endTimeString = self.timeString(for: self.end)
+		var info = [Keys.NavigationItem.freeSlots]
+		
+		info.append(self.dateString)
+		info.append("\(startTimeString) - \(endTimeString)")
+		
+		return info.reduce("", {$0 + $1 + "\n"})
+	}
+	
 	func timeString(for date: Date) -> String {
 		let locale = Locale.current
 		let timeFormat = Keys.DateFormat.time
@@ -30,5 +41,8 @@ extension DateInterval {
 		
 		return dateString
 	}
+	
+	func toEvent() -> EventDescriptor {
+		return Event(text: self.textForEvent, startDate: self.start, endDate: self.end)
+	}
 }
-

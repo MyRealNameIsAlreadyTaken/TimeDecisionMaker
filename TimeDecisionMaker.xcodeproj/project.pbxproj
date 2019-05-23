@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2E9D98DE6671777500FEB858 /* Pods_TimeDecisionMaker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BC8F02F1918A7E1FF931967 /* Pods_TimeDecisionMaker.framework */; };
 		748F59A42270681B00B88B7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F59A32270681B00B88B7D /* AppDelegate.swift */; };
-		748F59A92270681B00B88B7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748F59A72270681B00B88B7D /* Main.storyboard */; };
 		748F59AB2270681D00B88B7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 748F59AA2270681D00B88B7D /* Assets.xcassets */; };
 		748F59AE2270681D00B88B7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748F59AC2270681D00B88B7D /* LaunchScreen.storyboard */; };
 		748F59B92270681D00B88B7D /* TimeDecisionMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F59B82270681D00B88B7D /* TimeDecisionMakerTests.swift */; };
@@ -63,6 +62,10 @@
 		8CA4C2F82297198F0027A851 /* UINibExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4C2F62297198F0027A851 /* UINibExt.swift */; };
 		8CA4C2FA229719BE0027A851 /* DateIntervalExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4C2F9229719BE0027A851 /* DateIntervalExt.swift */; };
 		8CA4C2FB229719BE0027A851 /* DateIntervalExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4C2F9229719BE0027A851 /* DateIntervalExt.swift */; };
+		8CA4C2FD229722830027A851 /* FreeSlotsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4C2FC229722830027A851 /* FreeSlotsVC.swift */; };
+		8CA4C2FE229722830027A851 /* FreeSlotsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4C2FC229722830027A851 /* FreeSlotsVC.swift */; };
+		8CA4C300229723A50027A851 /* EventExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4C2FF229723A50027A851 /* EventExt.swift */; };
+		8CA4C301229723A50027A851 /* EventExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4C2FF229723A50027A851 /* EventExt.swift */; };
 		F145F2E7BBED2128C3A18CD4 /* Pods_TimeDecisionMakerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F79E38CEEDF2144E6F811D /* Pods_TimeDecisionMakerTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -82,7 +85,6 @@
 		6BC8F02F1918A7E1FF931967 /* Pods_TimeDecisionMaker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeDecisionMaker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		748F59A02270681B00B88B7D /* TimeDecisionMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeDecisionMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		748F59A32270681B00B88B7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		748F59A82270681B00B88B7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		748F59AA2270681D00B88B7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		748F59AD2270681D00B88B7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		748F59AF2270681D00B88B7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -115,6 +117,8 @@
 		8CA4C2F3229719580027A851 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		8CA4C2F62297198F0027A851 /* UINibExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINibExt.swift; sourceTree = "<group>"; };
 		8CA4C2F9229719BE0027A851 /* DateIntervalExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateIntervalExt.swift; sourceTree = "<group>"; };
+		8CA4C2FC229722830027A851 /* FreeSlotsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeSlotsVC.swift; sourceTree = "<group>"; };
+		8CA4C2FF229723A50027A851 /* EventExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventExt.swift; sourceTree = "<group>"; };
 		DAA5CB1A14F58C4E3964B8DC /* Pods-TimeDecisionMaker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeDecisionMaker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TimeDecisionMaker/Pods-TimeDecisionMaker.debug.xcconfig"; sourceTree = "<group>"; };
 		F7F79E38CEEDF2144E6F811D /* Pods_TimeDecisionMakerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeDecisionMakerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -197,7 +201,6 @@
 		748F59C32270684E00B88B7D /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				748F59A72270681B00B88B7D /* Main.storyboard */,
 				748F59AC2270681D00B88B7D /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
@@ -208,6 +211,7 @@
 			children = (
 				8CA4C2C82297149B0027A851 /* InitialVC.swift */,
 				8CA4C2CB229714CE0027A851 /* EventListVC.swift */,
+				8CA4C2FC229722830027A851 /* FreeSlotsVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -290,6 +294,7 @@
 				8CA4C2F02297192C0027A851 /* UITableViewExt.swift */,
 				8CA4C2F62297198F0027A851 /* UINibExt.swift */,
 				8CA4C2F9229719BE0027A851 /* DateIntervalExt.swift */,
+				8CA4C2FF229723A50027A851 /* EventExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -401,7 +406,6 @@
 				8CA4C2DA2297168F0027A851 /* NeedPermissionView.xib in Resources */,
 				8CA4C2C6229712470027A851 /* B.ics in Resources */,
 				748F59AB2270681D00B88B7D /* Assets.xcassets in Resources */,
-				748F59A92270681B00B88B7D /* Main.storyboard in Resources */,
 				8CA4C2C4229712470027A851 /* A.ics in Resources */,
 				8CA4C2EA229718A30027A851 /* EventCell.xib in Resources */,
 			);
@@ -535,6 +539,7 @@
 				748F59C72270687C00B88B7D /* RDTimeDecisionMaker.swift in Sources */,
 				8CA4C2E32297177C0027A851 /* UIViewExt.swift in Sources */,
 				8CA4C2FA229719BE0027A851 /* DateIntervalExt.swift in Sources */,
+				8CA4C2FD229722830027A851 /* FreeSlotsVC.swift in Sources */,
 				8CA4C2E7229718870027A851 /* EventCell.swift in Sources */,
 				8CA4C2F12297192C0027A851 /* UITableViewExt.swift in Sources */,
 				8CA4C2B7229710170027A851 /* Operators.swift in Sources */,
@@ -547,6 +552,7 @@
 				748F59A42270681B00B88B7D /* AppDelegate.swift in Sources */,
 				8CA4C2ED229718B90027A851 /* EventCellViewModel.swift in Sources */,
 				8CA4C2D2229715340027A851 /* CalendarManagerDelegate.swift in Sources */,
+				8CA4C300229723A50027A851 /* EventExt.swift in Sources */,
 				8CA4C2BF2297116A0027A851 /* StringKeys.swift in Sources */,
 				8CA4C2BA2297102C0027A851 /* PrecedenceGroups.swift in Sources */,
 				8CA4C2CC229714CE0027A851 /* EventListVC.swift in Sources */,
@@ -564,6 +570,7 @@
 				748F59B92270681D00B88B7D /* TimeDecisionMakerTests.swift in Sources */,
 				8CA4C2E42297177C0027A851 /* UIViewExt.swift in Sources */,
 				8CA4C2FB229719BE0027A851 /* DateIntervalExt.swift in Sources */,
+				8CA4C2FE229722830027A851 /* FreeSlotsVC.swift in Sources */,
 				8CA4C2E8229718870027A851 /* EventCell.swift in Sources */,
 				8CA4C2F22297192C0027A851 /* UITableViewExt.swift in Sources */,
 				8CA4C2B222970FD90027A851 /* UserCalendar.swift in Sources */,
@@ -576,6 +583,7 @@
 				8CA4C2B522970FF50027A851 /* Appointment.swift in Sources */,
 				8CA4C2EE229718B90027A851 /* EventCellViewModel.swift in Sources */,
 				8CA4C2D3229715340027A851 /* CalendarManagerDelegate.swift in Sources */,
+				8CA4C301229723A50027A851 /* EventExt.swift in Sources */,
 				8CA4C2C02297116A0027A851 /* StringKeys.swift in Sources */,
 				8CA4C2B8229710170027A851 /* Operators.swift in Sources */,
 				8CA4C2CD229714CE0027A851 /* EventListVC.swift in Sources */,
@@ -593,14 +601,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		748F59A72270681B00B88B7D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				748F59A82270681B00B88B7D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		748F59AC2270681D00B88B7D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -740,7 +740,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rd.test.TimeDecisionMaker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rd.test.TimeDecisionMaker.vikravet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -759,7 +759,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rd.test.TimeDecisionMaker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rd.test.TimeDecisionMaker.vikravet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;

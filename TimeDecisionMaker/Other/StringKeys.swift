@@ -12,6 +12,7 @@ struct Keys {
 	struct NavigationItem {
 		static let eventList = "Event list"
 		static let calendars = "Calendars"
+		static let freeSlots = "Free Slots"
 	}
 	
 	struct Calendars {

@@ -33,6 +33,11 @@ class EventListVC: UIViewController {
 		self.tableView.reloadData()
 	}
 	
+	@objc private func presentFreeSlotsVC() {
+		let freeSlotsVC = FreeSlotsVC()
+		navigationController?.pushViewController(freeSlotsVC, animated: true)
+	}
+	
 	private func setupTableView() {
 		self.tableView.register(EventCell.self)
 		self.tableView.dataSource = self
@@ -48,6 +53,10 @@ class EventListVC: UIViewController {
 																style: .plain,
 																target: self.navigationController,
 																action: #selector(self.navigationController?.popViewController(animated:)))
+		self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: Keys.NavigationItem.freeSlots,
+																 style: .done,
+																 target: self,
+																 action: #selector(self.presentFreeSlotsVC))
 	}
 }
 
